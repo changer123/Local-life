@@ -1,0 +1,93 @@
+<!--index.wxml-->
+<view class="root">
+  <!-- 导航栏 -->
+  <view class="tabs">
+    <view class="item active">
+      <text>个性推荐</text>
+    </view>
+    <view class="item">
+      <text>歌单</text>
+    </view>
+    <view class="item">
+      <text>主播电台</text>
+    </view>
+    <view class="item">
+      <text>排行榜</text>
+    </view>
+  </view>
+  <!-- 中间歌单部分 -->
+  <scroll-view class="content" scroll-y>
+    <swiper class="scroll" current="0">
+      <swiper-item style="position: absolute; width: 100%; height: 100%; transform: translate(0%, 0px) translateZ(0px);">
+        <image src="../../images/slide.png" role="img">
+        </image>
+      </swiper-item>
+      <swiper-item style="position: absolute; width: 100%; height: 100%; transform: translate(100%, 0px) translateZ(0px);">
+        <image src="../../images/slide2.jpg" role="img">
+        </image>
+      </swiper-item>
+      <swiper-item style="position: absolute; width: 100%; height: 100%; transform: translate(200%, 0px) translateZ(0px);">
+        <image src="../../images/slide3.jpg" role="img">
+        </image>
+      </swiper-item>
+      </swiper>
+      <view class="portals">
+        <view class="item">
+          <image src="../../images/04.png"></image>
+          <text>私人FM</text>
+        </view>
+        <view class="item">
+          <image src="../../images/05.png"></image>
+          <text>每日歌曲推荐</text>
+        </view>
+        <view class="item">
+          <image src="../../images/06.png"></image>
+          <text>云音乐新歌榜</text>
+        </view>
+      </view>
+      <view class="meun">
+        <view class="title">推荐歌单</view>
+        <view class="sing-list">
+          <view class="item">
+            <image src="../../images/1.jpg"></image>
+            <text>行走在沙漠的诗人</text>
+          </view>
+          <view class="item">
+            <image src="../../images/2.jpg"></image>
+            <text>摇滚乐：只听前奏就知道是什么歌</text>
+          </view>
+          <view class="item">
+            <image src="../../images/3.jpg"></image>
+            <text>欧美风歌曲</text>
+          </view>
+          <view class="item">
+            <image src="../../images/4.jpg"></image>
+            <text>清新小调，平凡的一天</text>
+          </view>
+          <view class="item">
+            <image src="../../images/5.jpg"></image>
+            <text>那些动漫里的BGM</text>
+          </view>
+          <view class="item">
+            <image src="../../images/6.jpg"></image>
+            <text>永远的哥哥</text>
+          </view>
+        </view>
+      </view>
+  </scroll-view>
+  <!-- 下方播放栏 -->
+  <view class="palyer">
+    <view class="picture">
+      <image src="../../images/poster.jpg"></image>
+    </view>
+    <view class="info">
+      <text class="sing">小半</text>
+      <text class="singer">陈粒</text>
+    </view>
+    <view class="button">
+      <image src="../../images/01.png"></image>
+      <image src="../../images/02.png"></image>
+      <image src="../../images/03.png"></image>
+    </view>
+  </view>
+</view>
