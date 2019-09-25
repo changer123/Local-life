@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
   "navigationBarTitleText": "Music Player",
   "navigationBarTextStyle": "white",
   "navigationBarBackgroundColor": "#222"
+=======
+  "usingComponents": {}
+>>>>>>> c446e2beca659919a5dcf56de8e7f432c2e94b7d
 }

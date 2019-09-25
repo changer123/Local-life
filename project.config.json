@@ -9,12 +9,22 @@
 		"postcss": true,
 		"minified": true,
 		"newFeature": true,
+<<<<<<< HEAD
 		"autoAudits": false
 	},
 	"compileType": "miniprogram",
 	"libVersion": "2.0.4",
 	"appid": "wxa05fc68ba52fd2da",
 	"projectname": "demo",
+=======
+		"autoAudits": false,
+		"coverView": true
+	},
+	"compileType": "miniprogram",
+	"libVersion": "2.8.2",
+	"appid": "wxee3d07a0b7a966fa",
+	"projectname": "Local%20life",
+>>>>>>> c446e2beca659919a5dcf56de8e7f432c2e94b7d
 	"debugOptions": {
 		"hidedInDevtools": []
 	},
